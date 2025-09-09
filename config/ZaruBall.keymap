@@ -20,14 +20,7 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri_layer {
-            if-layers = <2 3>;
-            then-layer = <4>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
 
 / {
